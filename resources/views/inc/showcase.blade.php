@@ -1,10 +1,6 @@
-<div class="jumbotron text-center">
+<div class="container-fluid.jumbotron-fluid">
 
-    <div class="container">
+    <img src="{{ URL::to('/img/5.jpg') }}" class="img-fluid" alt="Image header">
 
-        <h1>Welcome To Our site</h1>
-        <p class="lead">Welcome to our brand new Laravel powered website. This site uses Laravel version I have no idea.</p>
-
-    </div>
 
 </div>

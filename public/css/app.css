@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Montserrat", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -71,7 +71,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -6319,7 +6319,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6444,7 +6444,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -10476,12 +10476,36 @@ a.text-dark:focus {
   padding-top: 40px;
 }
 
+.navbar-brand {
+  padding-left: 15px;
+}
+
+.nav-item {
+  font-size: 15px;
+  letter-spacing: 3.5px;
+  padding: 8px;
+}
+
+.nav-item:last-child {
+  border: 1px solid #2fa360;
+  border-radius: 20px;
+  background-color: #2fa360;
+  letter-spacing: 2.5px;
+  color: #ffffff;
+}
+
+.collapse {
+  position: absolute;
+  right: 2px;
+  padding-right: 15px;
+}
+
 #footer {
   margin-top: 30px;
   padding: 20px;
   color: #fff;
   background: #333333;
-  position: fixed;
+  position: relative;
   bottom: 0px;
   width: 100%;
 }
